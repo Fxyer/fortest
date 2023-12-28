@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>饼状图</title>
+    <defs>
+        <circle id="path-1" cx="28" cy="28" r="15.2"></circle>
+        <filter x="-9.9%" y="-9.9%" width="119.7%" height="119.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.897832456   0 0 0 0 0.897832456   0 0 0 0 0.897832456  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="饼状图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形备份" fill="#EBF0FF" cx="28" cy="28" r="19"></circle>
+        <g id="椭圆形">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <path d="M38.45,28 C38.45,33.7713756 33.7713756,38.45 28,38.45 C22.2286244,38.45 17.55,33.7713756 17.55,28 C17.55,22.2286244 22.2286244,17.55 28,17.55 L28,17.55 L28,28 Z" id="形状结合" fill="#99B1FF"></path>
+        <path d="M30,16 C35.5228475,16 40,20.4771525 40,26 C40,26.3378756 39.9832433,26.6718374 39.9505155,27.0010997 L29,27 L28.9992917,16.0494456 C29.3284273,16.0167435 29.6622583,16 30,16 Z" id="形状结合" fill="#99B1FF" opacity="0.466474261"></path>
+        <path d="" id="路径-15" stroke="#979797"></path>
+        <rect id="矩形备份-18" fill="#99B1FF" opacity="0.74483817" transform="translate(49.000000, 8.000000) rotate(-360.000000) translate(-49.000000, -8.000000) " x="47" y="6" width="4" height="4" rx="2"></rect>
+        <rect id="矩形备份-20" fill="#99B1FF" opacity="0.74483817" transform="translate(7.000000, 49.000000) rotate(-180.000000) translate(-7.000000, -49.000000) " x="5" y="47" width="4" height="4" rx="2"></rect>
+        <rect id="矩形备份-19" fill="#99B1FF" opacity="0.74483817" transform="translate(49.000000, 14.000000) rotate(-360.000000) translate(-49.000000, -14.000000) " x="48" y="13" width="2" height="2" rx="1"></rect>
+        <rect id="矩形备份-21" fill="#99B1FF" opacity="0.74483817" transform="translate(7.000000, 43.000000) rotate(-180.000000) translate(-7.000000, -43.000000) " x="6" y="42" width="2" height="2" rx="1"></rect>
+        <rect id="矩形" x="0" y="0" width="56" height="56"></rect>
+    </g>
+</svg>
